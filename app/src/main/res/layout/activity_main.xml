@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<RatingBar-->
+    <!--android:id="@+id/ratingBar"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1" />-->
+
+    <!--<RatingBar-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:minHeight="40dp"-->
+    <!--android:minWidth="40dp"-->
+    <!--android:numStars="5"-->
+    <!--android:progressDrawable="@drawable/custom_circle" />-->
+
+    <com.example.spirit.threadpooldemo.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View style="@style/viewStyle" />
+
+        <View style="@style/viewStyle" />
+
+        <View style="@style/viewStyle" />
+
+        <View style="@style/viewStyle" />
+
+        <View style="@style/viewStyle" />
+    </com.example.spirit.threadpooldemo.CircleView>
+
+</LinearLayout>
